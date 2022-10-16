@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "argaddr",
+        "argint",
+        "argraw",
+        "argstr",
+        "countfree",
+        "fetchaddr",
+        "fetchstr",
+        "freemem",
+        "freepagetable",
+        "initcode",
+        "mappages",
+        "pagetable",
+        "PGSIZE",
+        "rtcdate",
+        "testmem",
+        "trapframe",
+        "ulib",
+        "uvmcreate",
+        "uvmfree",
+        "uvmunmap"
+    ]
+}
