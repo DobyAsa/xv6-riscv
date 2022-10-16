@@ -44,6 +44,20 @@ void procinit(void)
   kvminithart();
 }
 
+// return the number of not UNUSED procs.
+uint64 getprocs(void)
+{
+  uint64 count = 0;
+
+  for (int i = 0; i < NPROC; i++)
+  {
+    if (proc[i].state != UNUSED)
+      count++;
+  }
+
+  return count;
+}
+
 // Must be called with interrupts disabled,
 // to prevent race with process being moved
 // to a different CPU.

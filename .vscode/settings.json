@@ -9,16 +9,26 @@
         "fetchstr",
         "freemem",
         "freepagetable",
+        "getfreemem",
+        "growproc",
         "initcode",
         "mappages",
         "pagetable",
         "PGSIZE",
         "rtcdate",
         "testmem",
+        "tickslock",
         "trapframe",
         "ulib",
         "uvmcreate",
         "uvmfree",
-        "uvmunmap"
-    ]
+        "uvmunmap",
+        "xticks"
+    ],
+    "files.associations": {
+        "syscall.h": "c",
+        "param.h": "c",
+        "memlayout.h": "c",
+        "defs.h": "c"
+    }
 }
